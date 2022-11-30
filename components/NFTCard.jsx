@@ -4,6 +4,8 @@ import {COLORS, SIZES, SHADOWS, assets} from '../constants';
 
 import { CircleButton, RectButton } from './Button';
 
+import { SubInfo, NFTTitle, EthPrice } from './SubInfo';
+
 const NFTCard = ({data}) => {
   const navigation = useNavigation();
 
@@ -29,7 +31,33 @@ const NFTCard = ({data}) => {
 
           {/* Heart Button... */}
         <CircleButton imgUrl={assets.heart} right={10} top={10} />
+      </View>
 
+      <SubInfo />
+
+      <View style={{ width: '100%', padding: SIZES.regular }}>
+        <NFTTitle 
+        title={data.name}
+        subtitle={data.creator}
+        titleSize={SIZES.large}
+        subtitleSize={SIZES.small}
+        />
+
+        <View style={{
+          marginTop: SIZES.regular,
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center'
+        }}>
+          <EthPrice price={data.price} />
+
+          <RectButton 
+            minWidth={120}
+            fontSize={SIZES.regular}
+            handlePress={() => navigation.navigate("Details", { data })}
+          />
+
+        </View>
       </View>
     </View>
   )
