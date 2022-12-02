@@ -4,4 +4,4 @@ This is a cross-platform frontend build using React Native <a href="https://reac
 
 ## Testing
 You can test the app using the expo link
-<a>
+https://expo.dev/@saarthak_tuli/crypto-market?serviceType=classic&distribution=expo-go
