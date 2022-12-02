@@ -25,6 +25,3 @@ https://expo.dev/@saarthak_tuli/crypto-market?serviceType=classic&distribution=e
 
 Or by scanning the QR code:- <br /><br />
 <img src="https://qr.expo.dev/expo-go?owner=saarthak_tuli&slug=crypto-market&releaseChannel=default&host=exp.host" alt="qr-code" width="250px" height="250px" />
-
-
-
