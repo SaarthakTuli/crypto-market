@@ -5,7 +5,9 @@ This is a **Cross-Platform Frontend App** build using <a href="https://reactnati
 ## Deployment
 To deploy the app on your local machine you can use:-
 <br /><br />
-`$ npm start`
+```bash
+$ npm start
+```
 
 ## Showcase
 The description as well as details of the app have been showcased on a special showcase website, which has been built using ReactJS:-
