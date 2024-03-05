@@ -18,7 +18,8 @@ https://crypto-market-showcase.netlify.app/
 
 ## Preview
 <a href="https://crypto-market-showcase.netlify.app/" target="_blank">
-<img src="https://camo.githubusercontent.com/d68f7cff3db5075e460733c9d6a4f408bf044abf2ebca5e05bb99918d0e3ba04/68747470733a2f2f692e6962622e636f2f58356b596476422f696d6167652e706e67" alt="showcase_home" /></a>
+<img src="https://github.com/SaarthakTuli/crypto-market/assets/89101837/f83f59b6-38fc-473f-a5ce-e61804e2d6e4" alt="showcase_home" />
+</a>
 
 
 ## Testing
